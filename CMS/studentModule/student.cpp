@@ -10,7 +10,7 @@ class Teacher : public Person{
             this->subject = subject;
             this->dept = d;
         }
-        @override
+       
         void letOverride() {
             cout<<"I am teacher object"<<endl;
         }
